@@ -12,6 +12,7 @@
 		E96CB1E2204CE61100C6E1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96CB1E0204CE61100C6E1FF /* Main.storyboard */; };
 		E96CB1E4204CE61100C6E1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96CB1E3204CE61100C6E1FF /* Assets.xcassets */; };
 		E96CB1E7204CE61100C6E1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96CB1E5204CE61100C6E1FF /* LaunchScreen.storyboard */; };
+		E96CB1EF204CF44100C6E1FF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96CB1EE204CF44100C6E1FF /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E96CB1E3204CE61100C6E1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E96CB1E6204CE61100C6E1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E96CB1E8204CE61100C6E1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96CB1EE204CF44100C6E1FF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E96CB1DB204CE61100C6E1FF /* iOSAPP */ = {
 			isa = PBXGroup;
 			children = (
+				E96CB1EE204CF44100C6E1FF /* Person.swift */,
 				E96CB1DC204CE61100C6E1FF /* AppDelegate.swift */,
 				E96CB1DE204CE61100C6E1FF /* ViewController.swift */,
 				E96CB1E0204CE61100C6E1FF /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96CB1EF204CF44100C6E1FF /* Person.swift in Sources */,
 				E96CB1DF204CE61100C6E1FF /* ViewController.swift in Sources */,
 				E96CB1DD204CE61100C6E1FF /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				E96CB1ED204CE61100C6E1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
